@@ -6,24 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Analog Clock JS</title>
     <link rel="shortcut icon" href="#" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="dist/styles.min.css" />
   </head>
   <body>
     <div class="container">
       <div class="clock">
-        <span class="number number1"></span>
-        <span class="number number2"></span>
-        <span class="number number3"></span>
-        <span class="number number4"></span>
-        <span class="number number5"></span>
-        <span class="number number6"></span>
-        <span class="number number7"></span>
-        <span class="number number8"></span>
-        <span class="number number9"></span>
-        <span class="number number10"></span>
-        <span class="number number11"></span>
-        <span class="number number12"></span>
+        <div class="center-dot"></div>
+        <div class="hand hours-hand" data-hours-hand></div>
+        <div class="hand minutes-hand" data-minutes-hand></div>
+        <div class="hand seconds-hand" data-seconds-hand></div>
+        <span class="number number1">1</span>
+        <span class="number number2">2</span>
+        <span class="number number3">3</span>
+        <span class="number number4">4</span>
+        <span class="number number5">5</span>
+        <span class="number number6">6</span>
+        <span class="number number7">7</span>
+        <span class="number number8">8</span>
+        <span class="number number9">9</span>
+        <span class="number number10">10</span>
+        <span class="number number11">11</span>
+        <span class="number number12">12</span>
       </div>
     </div>
     <script src="app.js"></script>
